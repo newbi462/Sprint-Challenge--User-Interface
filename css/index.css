@@ -153,7 +153,6 @@ header {
 	padding: 20px 0 40px 0;
 	display: flex;
 	justify-content: space-between;
-
 }
 
 header nav {
@@ -169,4 +168,9 @@ header nav  a {
 }
 header nav  a:hover {
 	color: red;
+}
+
+/*MAIN PAGE AREA*/
+.top-content img {
+	margin: 0 0 20px 0;
 }
