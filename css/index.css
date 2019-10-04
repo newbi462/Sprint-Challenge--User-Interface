@@ -252,6 +252,29 @@ header section, footer section {
 	background: dodgerblue;
 }
 
+/*Ccontact form*/
+form {
+	display: flex;
+	flex-flow: column;
+	width: 95%;
+	margin: 0 auto;
+}
+form .areaform {
+	display: flex;
+	justify-content: space-between;
+}
+form .areaform label {
+	width: 200px;
+	flote: left;
+}
+form .areaform input {
+	width: 600px;
+	flote: left;
+}
+form .areaform .contactformtextarea {
+	height: 250px;
+}
+
 
 /*about footer*/
 footer .footnavbox {
