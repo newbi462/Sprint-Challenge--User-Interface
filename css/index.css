@@ -171,16 +171,38 @@ header div nav a:hover {
 }
 
 header .headerimage { /*they keep calling this a header image so fin in the header*/
-	margin: 40px 0 20px 0;
+/*	margin: 40px 0 20px 0;*/
 }
 header {
 	padding-bottom: 20px;
+}
+/*About sub header*/
+header section {
+	margin: 20px auto 0 auto;
+	padding; 20px 40px;
+	width: 95%;
+	display: flex;
+	flex-flow: column;
+	justify-content: space-around;
 }
 
 
 /*MAIN PAGE AREA*/
 
+/*about page*/
+.areamain {
+	border-top: 1px dashed black;
+	display: flex;
+	justify-content: space-around;
+	flex-flow: wrap;
+}
+.areamain .area1 {
+	border-bottom: 1px dashed black;
+	width: 375px;
+	margin: 20px 0;
+}
 
+/*home page*/
 .boxes .box-1 {
 	background: teal;
 }
