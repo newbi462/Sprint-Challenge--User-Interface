@@ -150,7 +150,23 @@ footer nav a {
 
 /*Header and nav*/
 header {
-	padding: 15px 0;
+	padding: 20px 0 40px 0;
 	display: flex;
 	justify-content: space-between;
+
+}
+
+header nav {
+	width: 640px;
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-end;
+}
+
+header nav  a {
+	text-decoration: none;
+	color: black;
+}
+header nav  a:hover {
+	color: red;
 }
