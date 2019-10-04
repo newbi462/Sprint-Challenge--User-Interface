@@ -199,7 +199,25 @@ header section {
 .areamain .area1 {
 	border-bottom: 1px dashed black;
 	width: 375px;
-	margin: 20px 0;
+	margin: 30px 0;
+	padding: 0 0 30px 0;
+}
+.areamain .area1 h2 {
+	margin: 0.65em 0;
+}
+.areamain .area1 p {
+	margin: 0 0 2em 0;
+}
+.areamain .area1 a {
+	border: 2px solid black;
+	border-radius: 5px;
+	text-decoration: none;
+	color: black;
+	padding: 8px 22px
+}
+.areamain .area1 a:hover {
+	color: crimson;
+	border: 2px solid crimson;
 }
 
 /*home page*/
