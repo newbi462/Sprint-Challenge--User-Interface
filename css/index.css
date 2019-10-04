@@ -128,7 +128,7 @@ p {
 
 footer {
     width: 100%;
-    background: black;
+/*    background: black;*/
 }
 
 footer nav {
@@ -177,7 +177,7 @@ header {
 	padding-bottom: 20px;
 }
 /*About sub header*/
-header section {
+header section, footer section {
 	margin: 20px auto 0 auto;
 	padding; 20px 40px;
 	width: 95%;
@@ -250,3 +250,12 @@ header section {
 }
 .boxes .box-10 {
 	background: dodgerblue;
+}
+
+
+/*about footer*/
+footer .footnavbox {
+	width: 800px;
+	background: black;
+	margin: 40px 0 0 0;
+}
