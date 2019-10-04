@@ -259,3 +259,6 @@ footer .footnavbox {
 	background: black;
 	margin: 40px 0 0 0;
 }
+footer nav a:hover {
+	color: crimson;
+}
