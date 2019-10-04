@@ -104,7 +104,7 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+/*    background: black;*/
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -167,10 +167,41 @@ header nav  a {
 	color: black;
 }
 header nav  a:hover {
-	color: red;
+	color: crimson; /*because that is Lambda*/
 }
 
 /*MAIN PAGE AREA*/
 .top-content img {
 	margin: 0 0 20px 0;
+}
+
+.boxes .box-1 {
+	background: teal;
+}
+.boxes .box-2 {
+	background: gold;
+}
+.boxes .box-3 {
+	background: cadetblue;
+}
+.boxes .box-4 {
+	background: coral;
+}
+.boxes .box-5 {
+	background: crimson;
+}
+.boxes .box-6 {
+	background: forestgreen;
+}
+.boxes .box-7 {
+	background: darkorchid;
+}
+.boxes .box-8 {
+	background: hotpink;
+}
+.boxes .box-9 {
+	background: indigo;
+}
+.boxes .box-10 {
+	background: dodgerblue;
 }
