@@ -271,8 +271,8 @@ form .areaform input {
 	width: 600px;
 	flote: left;
 }
-form .areaform .contactformtextarea {
-	height: 250px;
+form .contactformtextarea {
+	height: 125px;
 }
 
 
