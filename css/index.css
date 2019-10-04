@@ -149,31 +149,37 @@ footer nav a {
 /*NEW SPRINT CODE STATRS HERE*/
 
 /*Header and nav*/
-header {
+header div {
 	padding: 20px 0 40px 0;
 	display: flex;
 	justify-content: space-between;
 }
 
-header nav {
+header div nav {
 	width: 640px;
 	display: flex;
 	justify-content: space-around;
 	align-items: flex-end;
 }
 
-header nav  a {
+header div nav a {
 	text-decoration: none;
 	color: black;
 }
-header nav  a:hover {
+header div nav a:hover {
 	color: crimson; /*because that is Lambda*/
 }
 
-/*MAIN PAGE AREA*/
-.top-content img {
-	margin: 0 0 20px 0;
+header .headerimage { /*they keep calling this a header image so fin in the header*/
+	margin: 40px 0 20px 0;
 }
+header {
+	padding-bottom: 20px;
+}
+
+
+/*MAIN PAGE AREA*/
+
 
 .boxes .box-1 {
 	background: teal;
@@ -204,4 +210,3 @@ header nav  a:hover {
 }
 .boxes .box-10 {
 	background: dodgerblue;
-}
